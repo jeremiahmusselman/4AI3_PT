@@ -1,3 +1,19 @@
+# 4AI3 Personal Trainer main.py
+#
+#
+#
+# INSTRUCTIONS:
+#
+# This program requires Python version 3.7-3.10
+#
+# Paste next line into Terminal to install required libraries on your machine:
+#   pip install -r requirements.txt
+#
+# Press "q" key to quit the program.
+
+import os
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'  # Only show warnings and errors
+
 import cv2
 import mediapipe as mp
 
